@@ -4,6 +4,7 @@
    <input v-model="inputValue"/>
    <button @click="handleSubmit">提交</button>
   </div>
+  // test 
   <ul>
     <todo-item
     v-for="(item, index) of list"
